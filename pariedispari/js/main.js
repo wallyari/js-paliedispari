@@ -7,12 +7,12 @@
 // Dichiariamo chi ha vinto.
 
 
-const userNumber= prompt ('Scegli un numero');
+const userNumber= prompt ('Scegli pari o dispari');
 const userChoice = parseInt(prompt('Inserisci un numero da 1 a 5'));
 const computerNumber = getRandomNumber (1,5);
 
 const sumNumber = computerNumber + userChoice;
-const resultEvenorodd = checkEvenorodd(sommaNumeri);
+const resultEvenorodd = checkEvenorodd(sumNumeri);
 
 console.log('computerNumber');
 
